@@ -1,0 +1,18 @@
+{
+  "name": "free_to_play_app",
+  "version": "1.0.0",
+  "description": "Welcome to my web app! This is one of my first projects as a beginner developer, and I’m excited to share what I’ve been building. I’m using the **FreeToGame API** to create an app that showcases some of the best free-to-play games available.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@emotion/react": "^11.13.5",
+    "@emotion/styled": "^11.13.5",
+    "@mui/material": "^6.1.8",
+    "vite": "^5.4.11"
+  }
+}
