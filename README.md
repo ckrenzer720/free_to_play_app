@@ -1,7 +1,7 @@
-## FreeToPlay Game Explorer
+# FreeToPlay Game Explorer
 Welcome to the FreeToPlay Game Explorer, one of my first web applications! 🎉 This project is designed to help users discover and explore the best free-to-play games and MMO games programmatically using the comprehensive FreeToGame API. It's a simple yet powerful way to retrieve detailed game information, such as titles, genres, descriptions, and more.
 
-### Overview
+## Overview
 The FreeToGame API provides unrestricted access to a database of over 400 free-to-play games. Whether you’re a developer, gamer, or data enthusiast, this API allows you to programmatically access essential game data and explore various filters and sorting options.
 
 This project is my first step into the world of web development, and I’m excited to share it with you! Feedback and suggestions are always welcome. 🚀
@@ -16,16 +16,15 @@ Getting Started
 Authentication
 The FreeToGame API requires no authentication, making it easy to get started. Simply make HTTP GET requests to the API's endpoints.
 
-# Base URL
+### Base URL
 All API requests start with the following base URL:
 
-arduino
 Copy code
 https://www.freetogame.com/api
 Endpoints
 Here’s a list of available endpoints and what they do:
 
---- Endpoint	Description ---
+### Endpoint	Description ###
 /games	Retrieve a list of all free-to-play games.
 /game?id={game_id}	Retrieve details of a specific game by its ID.
 /games?category={category_name}	Retrieve a list of all available games from a specific genre.
